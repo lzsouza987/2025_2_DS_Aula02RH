@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Aula02RH.Models.Enuns;
 
+//Um comentário qualquer pra deixar no git
 
 namespace Aula02RH.Models
 {
