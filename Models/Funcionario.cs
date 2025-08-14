@@ -31,6 +31,26 @@ namespace Aula02RH.Models
             return periodoExperiencia;
         }
 
+        public decimal CalcularDescontoVT(decimal percentual)
+        {
+            decimal desconto = this.Salario * percentual / 100;
+            return desconto;
+        }
+
+        private int ContarCaracteres(string dado)
+        {
+            return dado.Length;
+        }
+
+        public bool ValidarCpf()
+        {
+            if (ContarCaracteres(Cpf) == 11)
+                return true;
+            else
+                return false;
+        }
+
+
 
     }
 }
